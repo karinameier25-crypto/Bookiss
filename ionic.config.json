@@ -1,0 +1,7 @@
+{
+  "name": "Bookiss",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
