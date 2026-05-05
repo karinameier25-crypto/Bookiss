@@ -32,7 +32,7 @@
 </template>
 
 <script setup lang="ts">
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton } from '@ionic/vue';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton,  IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonInput  } from '@ionic/vue';
 import { ref } from 'vue';
 
 const email = ref('')
