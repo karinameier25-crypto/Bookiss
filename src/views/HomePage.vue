@@ -8,8 +8,6 @@
     </ion-header>
 
     <ion-content :fullscreen="true">
-      <ion-button v-if="!logado" @click="$router.push('/login')">LOGIN</ion-button>
-      <ion-button v-if="!logado" @click="$router.push('/cadastro')">CADASTRO</ion-button>
       <h2 v-if="logado">Bem-vindo(a)!</h2>
       <ion-header collapse="condense">
         <ion-toolbar>
