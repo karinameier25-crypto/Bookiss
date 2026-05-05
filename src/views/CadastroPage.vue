@@ -7,7 +7,7 @@
     </ion-header>
 
     <ion-content :fullscreen="true">
-        <ion-button @click="$router.push('/home')">HOME</ion-button>
+        <ion-button @click="$router.push('/login')">LOGIN</ion-button>
       <ion-header collapse="condense">
         <ion-toolbar>
           <ion-title size="large">BOOKISS</ion-title>

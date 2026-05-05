@@ -12,7 +12,7 @@
           <ion-title size="large">BOOKISS</ion-title>
         </ion-toolbar>
       </ion-header>
-
+   <ion-button @click="$router.push('/cadastro')">CADASTRAR</ion-button>
       <div id="container">
         <ion-card>
             <ion-card-header>

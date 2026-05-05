@@ -55,7 +55,7 @@ const livros = [
     id: '3',
     nome: "Horimiya",
     autor: "HERO",
-    descricao: "Romance com lados ocultos",
+    descricao: "Horimiya acompanha Hori, uma aluna popular e exemplar que esconde sua vida caseira dedicada à família, e Miyamura, um rapaz sombrio e estudioso que esconde tatuagens e piercings. Quando os dois descobrem, por acaso, os segredos um do outro fora da escola, desenvolvem uma amizade sincera que evolui para um romance doce e amadurecedor",
     img: "https://m.media-amazon.com/images/I/71hsNIpmdZL.jpg"
   }
 ];
