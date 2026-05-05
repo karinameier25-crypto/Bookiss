@@ -12,8 +12,7 @@ O Bookiss é um aplicativo desenvolvido com Ionic + Vue que tem como objetivo ap
 
 O sistema permite que o usuário visualize uma lista de livros na página inicial e acesse uma tela de detalhes com informações como título, autor, descrição e imagem.
 
-Além disso, o projeto possui telas de login, cadastro e recuperação de senha. O login é simulado utilizando armazenamento local (localStorage), permitindo alterar a interface após o usuário entrar no sistema.
-
+Além disso, o projeto possui telas de login, cadastro e recuperação de senha.
 ---
 
 ## 📱 Telas desenvolvidas
