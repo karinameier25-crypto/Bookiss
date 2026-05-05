@@ -24,6 +24,9 @@
                 <h2>Senha:</h2>
                 <ion-input v-model="senha" type="password" placeholder="Digite sua senha"></ion-input>
                 <ion-button v-if="email && senha" @click="$router.push('/home')">Entrar</ion-button>
+                <ion-button fill="clear" @click="$router.push('/recuperasenha')">
+  Esqueceu sua senha?
+</ion-button>
             </ion-card-content>
         </ion-card>
       </div>
