@@ -1,53 +1,85 @@
 # 📚 Bookiss
 
 ## 👩‍💻 Nome
-Karina (coloque seu nome completo aqui)
+
+Karina Meier
 
 ---
 
 ## 📖 Descrição do projeto
+
 O Bookiss é um aplicativo desenvolvido com Ionic + Vue que tem como objetivo apresentar livros de romance.
 
-O sistema permite que o usuário visualize uma lista de livros e acesse uma tela de detalhes com informações como título, autor, descrição e imagem.
+O sistema permite que o usuário visualize uma lista de livros na página inicial e acesse uma tela de detalhes com informações como título, autor, descrição e imagem.
 
-Além disso, o projeto conta com telas de login, cadastro e recuperação de senha, simulando um sistema completo.
+Além disso, o projeto possui telas de login, cadastro e recuperação de senha. O login é simulado utilizando armazenamento local (localStorage), permitindo alterar a interface após o usuário entrar no sistema.
 
 ---
 
 ## 📱 Telas desenvolvidas
-- Home (página inicial com os livros)
-- Login
-- Cadastro
-- Recuperação de senha
-- Detalhes do livro
 
----
-
-## ⚙️ Tecnologias utilizadas
-- Ionic Framework
-- Vue 3
-- TypeScript
+* Home (listagem de livros)
+* Login
+* Cadastro
+* Recuperação de senha
+* Detalhes do livro
 
 ---
 
 ## 🧠 Conceitos utilizados
 
-### ref()
-Utilizado para criar variáveis reativas que atualizam automaticamente a interface.
+### 🔹 ref()
 
-### watch()
-Utilizado para observar mudanças na rota e atualizar os dados do livro exibido.
+Utilizado para criar variáveis reativas. No projeto, foi usado para armazenar o livro selecionado e atualizar automaticamente os dados na tela.
 
-### computed()
-Não utilizado no projeto, mas serve para criar valores derivados automaticamente.
+### 🔹 v-if
 
-### props
-Não utilizado diretamente no projeto, mas serve para comunicação entre componentes.
+Utilizado para exibir ou ocultar elementos na interface. Exemplo: esconder os botões de login e cadastro após o usuário estar logado.
+
+### 🔹 v-model
+
+Utilizado para capturar os dados digitados nos campos de entrada (email e senha).
+
+### 🔹 watch()
+
+Utilizado para observar mudanças no ID da rota e atualizar automaticamente o livro exibido na tela de detalhes.
+
+---
+
+## ⚙️ Tecnologias utilizadas
+
+* Ionic Framework
+* Vue 3
+* TypeScript
 
 ---
 
 ## ▶️ Como rodar o projeto
 
-1. Instalar as dependências:
+* Baixe o projeto em formato .zip
+* Descompacte o arquivo
+* Abra o terminal
+* Acesse a pasta do projeto:
+
 ```bash
-npm install
+cd .\Documents\Bookiss\
+
+```
+
+* Abra no VS Code:
+
+```bash
+code .
+```
+
+* Execute o projeto:
+
+```bash
+ionic serve
+```
+
+---
+
+## 📁 Observações
+
+## O repositório contém todo o código-fonte do projeto, incluindo as páginas, navegação entre rotas e funcionalidades implementadas.

@@ -8,7 +8,6 @@
     </ion-header>
 
     <ion-content :fullscreen="true">
-      <h2 v-if="logado">Bem-vindo(a)!</h2>
       <ion-header collapse="condense">
         <ion-toolbar>
           <ion-title size="large">BOOKISS</ion-title>
@@ -56,15 +55,7 @@
 
 <script setup lang="ts">
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonImg, IonCardTitle, IonCardSubtitle, IonCardHeader, IonCard } from '@ionic/vue';
-import { ref, onMounted } from 'vue';
 
-const logado = ref(false);
-
-onMounted(() => {
-  if (localStorage.getItem('logado') === 'true') {
-    logado.value = true;
-  }
-});
 </script>
 
 <style scoped>#container {
